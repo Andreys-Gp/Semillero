@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gradiente</title>
+    <title>GRADIENTE</title>
+    <link rel="stylesheet" href="/Divergencia/styles.css">
+    <link rel="stylesheet" href="/Divergencia/resect.css">
 </head>
-<body>
-
+<body style="background-image: url(/src/cool-background2.svg); background-repeat: no-repeat; background-size: cover;">
+    <section class="section-formulario">
+        <form action="" class="fomr">
+            <h1>GRADIENTE</h1>
+        <textarea name=""  cols="40" rows="10" readonly style="text-align:justify;">
+    Mide la tasa maxima de cambio de un campo vectorial en un punto, tiene como entrada un campo escalar y da como salida un campo vectorial 
+           </textarea>
+            <select name="seleccione una opcion" >
+                <option value="">SELECCIONE UNA OPCION</option>
+                <option value="">COORDENADAS RECTANGULARES</option>
+                <option value="">COORDENADAS CILINDRICAS</option>
+                <option value="">COORDENADAS ESFERICAS</option>
+            </select>
+            
+            <label class="escrito" >INGRESE COMPONENTE</label>
+            <input class="controls" type="text" placeholder="componente inicial" name="componenteInicial">
+        
+        
+        </form >
+    </section>
     <script src="./gradiente.js"></script>
 </body>
 </html>

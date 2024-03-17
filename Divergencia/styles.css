@@ -1,0 +1,48 @@
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.escrito{
+ padding: 5px;
+}
+.section-formulario{
+    width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.section-formulario select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-formulario h4{
+    margin-top: 5px;
+    margin-bottom: 5ex;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    background-image:url('/src/cool-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

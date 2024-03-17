@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIVERGENCIA</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./resect.css">
 </head>
 <body>
     
+
+    <section class="section-formulario">
+        <form action="" class="fomr">
+            <h1>DIVERGENCIA</h1>
+        <textarea name=""  cols="40" rows="10" readonly style="text-align:justify;">
+     Mide la diferencia entre el flujo saliente y el flujo entrante de un campo vectorial sobre la superficie querodea un volumen por tanto si el campo tiene fuentes la divergencia es positiva y si tiene sumideros negativa 
+        </textarea>
+            <select name="seleccione una opcion" >
+                <option value="">SELECCIONE UNA OPCION</option>
+                <option value="">COORDENADAS RECTANGULARES</option>
+                <option value="">COORDENADAS CILINDRICAS</option>
+                <option value="">COORDENADAS ESFERICAS</option>
+            </select>
+            
+            <label class="escrito" >INGRESE COMPONENTE</label>
+            <input id="primera" class="controls" type="text" placeholder="componente inicial" name="componenteInicial">
+            
+            <label class="escrito" >INGRESE COMPONENTE</label>
+            <input id="segunda" class="controls" type="text" placeholder="componente secundaria" name="componenteSecundaria">
+        
+            <label class="escrito">INGRESE COMPONENTE</label>
+            <input id="tercera" class="controls" type="text" placeholder="componente terciaria" name="componenteTerciaria">
+            
+        
+        
+        </form >
+    </section>
+    
+
+
+
 <script src="./divergencia.js"></script>
 <script src="nerdamer.core.js"></script> <!-- assuming you've saved the file in the root of course -->
 <!-- LOAD MODULES -->
 <script src="Algebra.js"></script>
 <script src="Calculus.js"></script>
 <script src="Solve.js"></script>
-<script src="Extra.js"></script> <!-- again assuming you've saved the files in root -->
+<script src="Extra.js"></script> 
 
 </body>
 </html>
