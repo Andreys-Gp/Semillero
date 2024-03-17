@@ -14,4 +14,5 @@ static get listaCoordenas(){
 static coordenadasAceptadas(){
     return console.info(`las coordenas aceptadas son "${divergencia.listaCoordenas.join(" , ")}"`);
 }
+
 }
