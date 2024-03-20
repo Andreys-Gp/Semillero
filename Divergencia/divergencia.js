@@ -7,6 +7,7 @@ let elementoResultado=document.getElementById("resultado")
     e.preventDefault();
     let regex=/^[pPrR@&]+$/;
 
+
     if((regex).test(entrada1)){
         document.getElementById("error2").style.display="inline";
     }
