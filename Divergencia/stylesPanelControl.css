@@ -1,20 +1,10 @@
-.controls{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-}
+
 .escrito{
  padding: 5px;
  margin: 5%;
 }
 .section-formulario{
-    width: 400px;
+     width: 30%;
   background: #24303c;
   padding: 30px;
   margin: auto;
@@ -23,6 +13,9 @@
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #08059c;
+  flex-direction: column;
+  align-content: flex-start;
+  
 }
 .section-formulario select{
     width: 100%;
@@ -43,23 +36,30 @@
 }
 
 body{
-    background-image:url('/src/circuit-svgrepo-com.svg');
-    background-size: 1% 1% contain;
+/*     background-image:url('/src/circuit-svgrepo-com.svg'); */   
+    background-image: url('/src/xhip.svg');
+     background-size: 1% 1% contain;
     background-repeat: repeat;
-    background-size:cover;
+    
 }
 
-.warnning{
-    width: 100px;
-    text-align: center;
-    margin: auto;
-    color: white;
-    padding-top: 10px;
-    display:none;
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("/src/divergencia.png");
+    background-repeat: no-repeat;
+    background-size: 100% 40vh;
 }
+
 
 .button{
-    display: block;
+
     cursor: pointer;
   margin: 5%;
   padding: 10px 20px;
@@ -67,9 +67,32 @@ body{
   border-radius: 10%;
   background-color: #fff;
   color: #000;
-  text-align: center;
   font-size: 16px;
   width: 40%; 
   height: 40%; 
   
+}
+
+.contenedor{
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+
+}
+
+
+.setpower{
+    padding: 1em;
+    border: 1px;
+
+}
+
+.frame{
+    padding: 1em;
+    border: 1px;
+    margin-top: 50%;
+    margin-right: 20%;
+
+    
+
 }
