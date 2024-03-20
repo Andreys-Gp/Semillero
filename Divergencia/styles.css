@@ -43,7 +43,7 @@
 }
 
 body{
-    background-image:url('/src/cool-background.svg');
+    background-image:url('/src/cool-background.svg  ');
     background-repeat: no-repeat;
     background-size:cover;
 }
